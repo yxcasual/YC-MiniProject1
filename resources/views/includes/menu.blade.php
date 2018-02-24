@@ -20,7 +20,7 @@
         </li>
     </ul>
     <li class="nav-item">
-        <a class="nav-link" href="/signin">Sign In</a>
+        <a class="nav-link" href="/signin">Login</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="/signup">Sign Up</a>
