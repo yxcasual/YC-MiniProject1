@@ -13,13 +13,13 @@
 
 Route::get('/', function () {
     return view('pages.index');
-});
+})->name('index');
 Route::get('/about', function () {
     return view('pages.about');
-});
+})->name('about');
 Route::get('/contact', function () {
     return view('pages.contact');
-});
+})->name('contact');
 Route::post('/contact', function () {
 
 
@@ -36,14 +36,14 @@ Route::post('/contact', function () {
 });
 Route::get('/logout', function () {
     return view('pages.logout');
-});
+})->name('logout');
 Route::get('/signin', function () {
     return view('pages.signin');
-});
+})->name('signin');
 Route::get('/signup', function () {
     return view('pages.signup');
-});
-Route::post('/contact', function () {
+})->name('signup');
+Route::post('/signup', function () {
 
     $data1 = request()->all();
     echo "Name :" . $data1['name'] . '<br>';
@@ -54,7 +54,7 @@ Route::post('/contact', function () {
 
 Route::get('/viewmessages', function () {
     return view('pages.viewmessages');
-});
+})->name('viewmessages');
 
 Route::get('/bootcard', function () {
     return view('pages.bootcard');

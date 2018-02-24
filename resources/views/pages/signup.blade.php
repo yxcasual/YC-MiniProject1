@@ -9,7 +9,7 @@
 
         <div class="card-body">
 
-            <form action="/contact" method="post">
+            <form action="/signup" method="post">
                 {{ csrf_field() }}
 
                 <div class="form-group">

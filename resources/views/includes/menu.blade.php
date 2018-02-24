@@ -7,27 +7,27 @@
 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{route('index')}}">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link" href="{{route('about')}}">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
+            <a class="nav-link" href="{{route('contact')}}">Contact</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/viewmessages">View Messages</a>
+            <a class="nav-link" href="{{route('viewmessages')}}">View Messages</a>
         </li>
     </ul>
     <li class="nav-item">
-        <a class="nav-link" href="/signin">Login</a>
+        <a class="nav-link" href="{{route('signin')}}">Login</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="/signup">Sign Up</a>
+        <a class="nav-link" href="{{route('signup')}}">Sign Up</a>
     </li>
     <ul class="nav navbar-nav navbar-right">
         <li class="nav-item">
-            <a class="nav-link" href="/logout">Logout</a>
+            <a class="nav-link" href="{{route('logout')}}">Logout</a>
         </li>
 
     </ul>
