@@ -15,6 +15,10 @@
                     <label for="email">Email address</label>
                     <input name="email" type="email" class="form-control" id="email" placeholder="name@example.com">
                 </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input name="subject"  class="form-control" id="subject " placeholder="Subject">
+                </div>
 
                 <div class="form-group">
                     <label for="body">Message</label>

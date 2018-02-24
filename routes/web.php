@@ -30,6 +30,7 @@ Route::post('/contact', function () {
     //dd($data);
 
     echo "Email: " .  $data['email'] . '<br>';
+    echo "Subject: " . $data['subject'] . '<br>';
     echo "Body: " . $data['body'];
 
 });
@@ -42,6 +43,15 @@ Route::get('/signin', function () {
 Route::get('/signup', function () {
     return view('pages.signup');
 });
+Route::post('/contact', function () {
+
+    $data1 = request()->all();
+    echo "Name :" . $data1['name'] . '<br>';
+    echo "Email: " .  $data1['email'] ;
+
+
+});
+
 Route::get('/viewmessages', function () {
     return view('pages.viewmessages');
 });
