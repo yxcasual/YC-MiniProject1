@@ -56,3 +56,7 @@ Route::get('/viewmessages', function () {
     return view('pages.viewmessages');
 });
 
+Route::get('/bootcard', function () {
+    return view('pages.bootcard');
+});
+
