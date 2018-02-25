@@ -19,13 +19,15 @@
             <a class="nav-link" href="{{route('viewmessages')}}">View Messages</a>
         </li>
     </ul>
-    <li class="nav-item">
-        <a class="nav-link" href="{{route('signin')}}">Login</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="{{route('signup')}}">Sign Up</a>
-    </li>
+
+
     <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('signup')}}">Sign Up</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('signin')}}">Login</a>
+        </li>
         <li class="nav-item">
             <a class="nav-link" href="{{route('logout')}}">Logout</a>
         </li>

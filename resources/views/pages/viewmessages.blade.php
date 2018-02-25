@@ -2,7 +2,9 @@
 
 @section('content')
 
-
+    <div class="card mt-3 pl-2 pr-2">
+        <div class="card-title"><h1>View Messages</h1>
+        <div class="card-body">
 
     <table class="table">
         <thead class="thead-inverse">
@@ -35,6 +37,7 @@
         </tr>
         </tbody>
     </table>
-
+        </div>
+    </div>
 
 @endsection

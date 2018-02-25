@@ -9,7 +9,7 @@
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
             <div class="container">
-                <img src="/css/images/andromeda.jpg" class="img-fluid">
+
 
                 <h1 class="display-3">The Andromeda Galaxy</h1>
                 <p>The Andromeda Galaxy also known as Messier 31, M31, or NGC 224, is a spiral galaxy approximately 780
