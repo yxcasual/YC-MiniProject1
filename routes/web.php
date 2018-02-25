@@ -25,11 +25,10 @@ Route::get('/thanks/{name}', 'PagesController@thanks')->name('thanks');
 Route::get('/logout', 'PagesController@logout')->name('logout');
 Route::get('/signin', 'PagesController@signin')->name('signin');
 Route::get('/signup', 'PagesController@signup')->name('signup');
-Route::post('/signup', function () {
-    $data1 = request()->all();
-    echo "Name :" . $data1['name'] . '<br>';
-    echo "Email: " .  $data1['email'] ;
-});
+Route::post('/signup','PagesController@store')->name('signup.store');
+    //$data1 = request()->all();
+    //echo "Name :" . $data1['name'] . '<br>';
+    //echo "Email: " .  $data1['email'] ;
 
 Route::get('/viewmessages', 'PagesController@viewmessages')->name('viewmessages');
 Route::get('/bootcard', function () {
