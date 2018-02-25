@@ -24,6 +24,7 @@ Route::get('/thanks/{name}', 'PagesController@thanks')->name('thanks');
    // echo "Body: " . $data['body'];
 Route::get('/logout', 'PagesController@logout')->name('logout');
 Route::get('/signin', 'PagesController@signin')->name('signin');
+Route::post('/signin','PagesController@redir')->name('signin.redir');
 Route::get('/signup', 'PagesController@signup')->name('signup');
 Route::post('/signup','PagesController@store')->name('signup.store');
     //$data1 = request()->all();
